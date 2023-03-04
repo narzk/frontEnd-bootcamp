@@ -1,0 +1,80 @@
+
+
+:root{
+    box-sizing: border-box; /*بوردر را داخل عرض و ارتفاع قرار میدهد و باعث جلوگیری افزایش عرض و ارتفاع میشود*/
+
+}
+*{
+    box-sizing: border-box; /*بوردر را داخل عرض و ارتفاع قرار میدهد و باعث جلوگیری افزایش عرض و ارتفاع میشود*/
+
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 14px; 
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container{
+    width: 400px;
+    height: 650px;
+    border: 2px solid lightgray;
+    box-shadow: 3px 8px 5px 3px #cccccc;
+    display: flex; /*تگ های دورن کانتینر را کنار هم قرار میدهد*/
+    flex-direction: column; /*فلکس به صورت پیش فرض سطری مرتب میکند برای همین تعیین میکنیم که ستونی کنار هم قرار دهد*/
+    align-items: center;
+    
+    
+}
+
+.picture{
+   
+    box-sizing: border-box;
+    width:380px ;
+    height:300px;
+}
+.container .header-h1{
+
+    /* به جای تنظیم حاشیه با فلکس تنظیم شود */
+    /* margin-right: 200px; */
+    /* display: flex;
+    justify-content: flex-start; */
+    font-weight: 900;
+    
+}
+
+
+
+
+
+.container .describe{
+  
+    border: 2px solid lightgray;
+    margin: 7px 7px 7px 7px;
+    /* margin-top: 7px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px; */
+    padding-left: 16px;
+    padding-right: 7px;
+    box-sizing: border-box;
+}
+
+
+.container .describe .describe-second-paragraph .describe-label-titr{
+    font-weight: 900;
+    
+}
+
+.container .describe .describe-first-paragraph{
+    font-style: italic;
+}
+
+.container .describe .describe-second-paragraph .describe-paragraph-for-lable{
+
+    font-style: italic;
+}
+

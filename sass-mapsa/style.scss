@@ -1,0 +1,33 @@
+$width: 100px;
+$height: 100px;
+
+@mixin color($color, $borderColor: black) {
+  background-color: $color;
+  border: 2px solid $borderColor;
+}
+
+@mixin pad($n: 10px) {
+  padding: $n;
+}
+.container {
+  display: flex;
+
+  flex: {
+    direction: column;
+    wrap: nowrap;
+    shrink: inherit;
+  }
+}
+.square1 {
+  width: $width;
+  height: $height;
+  @include color;
+}
+
+.square2 {
+  @extend .square1;
+  background-color: blue;
+  &:hover {
+    background-color: red;
+  }
+}
