@@ -1,0 +1,27 @@
+.timer{
+    width:300px;
+    height: 300px;
+    background-color: #CCC;
+border: 1px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.timer_min{
+    font-size: 50px;
+background-color: white;
+}
+.timer_sec{
+    font-size: 50px;
+background-color: white;
+
+}
+.timer_text{
+
+}
+.timer_buttons{
+    width:300px;
+padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
